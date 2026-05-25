@@ -9,7 +9,12 @@ echo "hello world"
 
 
 # how to declare variable
-name = "sasidhar"
+name="sasidhar"
+age="31"
+Qualification="BTech"
+Occupation="SoftwareEngineer"
 echo $name
-
+echo $age
+echo $Qualification
+echo $Occupation
 
