@@ -1,3 +1,4 @@
 #!/bin/bash/
 
-#adding  dummy code to git
+echo "hello world"
+echo "hello world"
