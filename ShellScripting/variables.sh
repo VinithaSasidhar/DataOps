@@ -1,3 +1,3 @@
 #!/bin/bash/
 
-#defining the variables
+#adding  dummy code to git
