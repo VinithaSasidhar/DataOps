@@ -12,7 +12,7 @@ how to declare variable
 #Exmaple1:
 name1="Vinitha"
 name2=sasidhar
-age=31.212
+age=31
 echo "$name1"
 echo "$name2"
 echo "$age"
@@ -40,7 +40,7 @@ read user_name
 echo "please enter your password"
 read -s password_1
 echo "username is $user_name"
-echo "your password is $password_1
+echo "your password is $password_1"
 
 #Exmaple6: Reading system variables and using it program
 #syntax: variable = $(system_variable)
@@ -61,4 +61,3 @@ timestamp_end=$(date +%s)
 echo "end time: $timestamp_end"
 executed_time=$(($timestamp_end-$timestamp_start))
 echo "Total executed time: $executed_time"
-
