@@ -16,3 +16,28 @@ echo "Number of arguments          : $#"
 echo "All arguments                : $@"
 echo "Random number                : $RANDOM"
 echo "Executable path locations    : $PATH"
+
+echo "All variables passed to script          : $@"
+echo "Number of variables passed              : $#"
+echo "First variable                          : $1"
+echo "Second variable                         : $2"
+echo "Script name                             : $0"
+echo "Who is running this                     : $USER"
+echo "Home directory                          : $HOME"
+echo "Present working directory               : $PWD"
+echo "Current shell                           : $SHELL"
+echo "Hostname                                : $HOSTNAME"
+echo "Operating system type                   : $OSTYPE"
+echo "User ID                                 : $UID"
+echo "Executable path locations               : $PATH"
+echo "Current process ID                      : $$"
+
+sleep 5 &
+echo "PID of background command               : $!"
+
+wait $!
+
+echo "Line number                             : $LINENO"
+echo "Script executed in                      : $SECONDS seconds"
+echo "Random number                           : $RANDOM"
+echo "Exit code of previous command           : $?"
