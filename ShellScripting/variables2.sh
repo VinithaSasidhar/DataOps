@@ -13,17 +13,18 @@ echo "Number of arguments                     : $#"
 echo "All arguments                           : $@"
 echo "Random number                           : $RANDOM"
 echo "Executable path locations               : $PATH"
-echo "All variables passed to script          : $@"
-echo "Number of variables passed              : $#"
-echo "First variable                          : $1"
-echo "Second variable                         : $2"
-echo "Script name                             : $0"
+echo "All variables passed to script          : $@" #run the script as sh variables2.sh apple orange banana sasi
+echo "Number of variables passed              : $#" #run the script as sh variables2.sh apple orange banana sasi
+echo "First variable                          : $1" #run the script as sh variables2.sh apple orange banana sasi
+echo "Second variable                         : $2" #run the script as sh variables2.sh apple orange banana sasi
+echo "Script name                             : $0" #run the script as sh variables2.sh apple orange banana sasi
 
 sleep 5 &
-echo "PID of background command               : $!"
+echo "PID of background command               : $!" #run the script as sh variables2.sh apple orange banana sasi
 
 wait $!
 
 echo "Line number                             : $LINENO"
 echo "Script executed in                      : $SECONDS seconds"
 echo "Random number                           : $RANDOM"
+
