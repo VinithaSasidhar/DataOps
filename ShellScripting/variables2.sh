@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "Current user's home directory : $HOME"
+echo "Current user name            : $USER"
+echo "Present working directory    : $PWD"
+echo "Current shell                : $SHELL"
+echo "System hostname              : $HOSTNAME"
+echo "Operating system type        : $OSTYPE"
+echo "User ID                      : $UID"
+echo "Current process ID           : $$"
+echo "Previous command status      : $?"
+echo "Script name                  : $0"
+echo "First argument               : $1"
+echo "Second argument              : $2"
+echo "Number of arguments          : $#"
+echo "All arguments                : $@"
+echo "Random number                : $RANDOM"
+echo "Executable path locations    : $PATH"
